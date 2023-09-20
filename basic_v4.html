@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+/* body{background:white} */
+body{background:black}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: skyblue;
+  stroke-width: 1.5px;
+}
+
+text {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+</style>
+<svg width="960" height="600"></svg>
+<script src="./libs/d3.v7.min.js"></script>
+<script>
+
+// var svg = d3.select("svg"),
+//     width = +svg.attr("width"),
+//     height = +svg.attr("height");
+
+// var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+var width = 300, height = 300
+var nodes = [{key:'a'}, {key:'b'}, {key:'c'}, {key:'d'}, {key:'e'}]
+
+var simulation = d3.forceSimulation(nodes)
+  .force('charge', d3.forceManyBody())
+  .force('center', d3.forceCenter(width / 2, height / 2))
+  .on('tick', ticked);
+
+  function ticked() {
+  var u = d3.select('svg')
+    .selectAll('circle')
+    .data(nodes)
+    .join('circle')
+    .attr('r', 5)
+    .attr("fill", function(d) { return 'skyblue'; })
+    // .attr("fill", function(d) { return color(d.group); });
+    .attr('cx', function(d) {return d.x })
+    .attr('cy', function(d) {return d.y });
+}    
+
+
+  
+  </script>
