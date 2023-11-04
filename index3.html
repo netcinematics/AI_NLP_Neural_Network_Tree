@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Force-Directed Graph</title>
+    <style>
+        .node {
+            fill: steelblue;
+            stroke: #fff;
+            stroke-width: 2px;
+        }
+
+        .label {
+            font-size: 12px;
+            text-anchor: middle;
+            fill: #333;
+        }
+    </style>
+</head>
+<body>
+    <svg width="400" height="400"></svg>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+        // Sample data
+        const nodes = [
+            { id: 'A' },
+            { id: 'B' },
+            { id: 'C' },
+            { id: 'D' },
+            { id: 'E' },
+        ];
+
+        const links = [
+            { source: 'A', target: 'B' },
+            { source: 'A', target: 'C' },
+            { source: 'B', target: 'D' },
+            { source: 'C', target: 'E' },
+        ];
+
+        // Create the SVG container
+        const svg = d3.select("svg");
+
+        // Create a force simulation
+        const simulation = d3.forceSimulation(nodes)
+            .force("link", d3.forceLink(links).id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-200))
+            .force("center", d3.forceCenter(svg.attr("width") / 2, svg.attr("height") / 2));
+
+        // Create links
+        const link = svg.selectAll(".link")
+            .data(links)
+            .enter().append("line")
+            .attr("class", "link");
+
+        // Create nodes
+        const node = svg.selectAll(".node")
+            .data(nodes)
+            .enter().append("g")
+            .attr("class", "node");
+
+        // Add circles to nodes
+        node.append("circle")
+            .attr("r", 10)
+            .attr("fill", "steelblue");
+
+        // Add labels to nodes
+        node.append("text")
+            .attr("class", "label")
+            .style('fill', 'black')
+            .style('font-size', '7px')
+            .text(d => d.id+'!!!');
+
+             
+  node.append("title")
+      .text(function(d) { return d.id; })
+
+        // Define tick function
+        function ticked() {
+            // Update link positions
+            link
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+
+            // Update node positions
+            node
+                .attr("transform", d => `translate(${d.x},${d.y})`);
+
+            // Prevent overlap of labels
+            const padding = 5;
+            const label = svg.selectAll(".label");
+            label.each(function (d, i) {
+                const thisLabel = this;
+                label.each(function (e, j) {
+                    if (i !== j) {
+                        const bbox1 = thisLabel.getBBox();
+                        const bbox2 = this.getBBox();
+                        const overlap = !(bbox1.x + bbox1.width < bbox2.x || bbox2.x + bbox2.width < bbox1.x ||
+                            bbox1.y + bbox1.height < bbox2.y || bbox2.y + bbox2.height < bbox1.y);
+
+                        if (overlap) {
+                            const dy = bbox2.y - bbox1.y > 0 ? 1 : -1;
+                            const translate = `translate(${d.x},${d.y + dy * padding})`;
+                            d3.select(thisLabel).attr("transform", translate);
+                        }
+                    }
+                });
+            });
+        }
+
+        // Run the simulation
+        simulation.on("tick", ticked);
+        </script>
+</body>
+</html>

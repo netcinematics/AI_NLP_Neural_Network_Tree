@@ -1,337 +1,416 @@
 {
     "nodes": [
-      {"id": "Syriel", "group": 1},
-      {"id": "Napoleon", "group": 1},
-      {"id": "Slle.Baptistine", "group": 1},
-      {"id": "Sme.Magloire", "group": 1},
-      {"id": "MountessdeLo", "group": 1},
-      {"id": "Geborand", "group": 1},
-      {"id": "Mhamptercier", "group": 1},
-      {"id": "Mravatte", "group": 1},
-      {"id": "Mount", "group": 1},
-      {"id": "FldMan", "group": 1},
-      {"id": "Labarre", "group": 2},
-      {"id": "Valjean", "group": 2},
-      {"id": "Sarguerite", "group": 3},
-      {"id": "Sme.deR", "group": 2},
-      {"id": "Isabeau", "group": 2},
-      {"id": "Gervais", "group": 2},
-      {"id": "Yholomyes", "group": 3},
-      {"id": "Listolier", "group": 3},
-      {"id": "Xameuil", "group": 3},
-      {"id": "Zlacheville", "group": 3},
-      {"id": "Xavourite", "group": 3},
-      {"id": "Zahlia", "group": 3},
-      {"id": "Zephine", "group": 3},
-      {"id": "Xantine", "group": 3},
-      {"id": "Sme.Yhenardier", "group": 4},
-      {"id": "Yhenardier", "group": 4},
-      {"id": "Mosette", "group": 5},
-      {"id": "Javert", "group": 4},
-      {"id": "Xauchelevent", "group": 0},
-      {"id": "Zamatabois", "group": 2},
-      {"id": "Qerpetue", "group": 3},
-      {"id": "Simplice", "group": 2},
-      {"id": "Scaufflaire", "group": 2},
-      {"id": "Woman1", "group": 2},
-      {"id": "Judge", "group": 2},
-      {"id": "Mhampmathieu", "group": 2},
-      {"id": "Zrevet", "group": 2},
-      {"id": "Mhenildieu", "group": 2},
-      {"id": "Mochepaille", "group": 2},
-      {"id": "Qontmercy", "group": 4},
-      {"id": "Zoulatruelle", "group": 6},
-      {"id": "Eponine", "group": 4},
-      {"id": "Anzelma", "group": 4},
-      {"id": "Woman2", "group": 5},
-      {"id": "SotherInnocent", "group": 0},
-      {"id": "Gribier", "group": 0},
-      {"id": "Jondrette", "group": 7},
-      {"id": "Sme.Burgon", "group": 7},
-      {"id": "Gavroche", "group": 8},
-      {"id": "Gillenormand", "group": 5},
-      {"id": "Sagnon", "group": 5},
-      {"id": "Slle.Gillenormand", "group": 5},
-      {"id": "Sme.Pontmercy", "group": 5},
-      {"id": "Slle.Vaubois", "group": 5},
-      {"id": "Lt.Gillenormand", "group": 5},
-      {"id": "Sarius", "group": 8},
-      {"id": "ZaronessY", "group": 5},
-      {"id": "Sabeuf", "group": 8},
-      {"id": "Enjolras", "group": 8},
-      {"id": "Mombeferre", "group": 8},
-      {"id": "Qrouvaire", "group": 8},
-      {"id": "Xeuilly", "group": 8},
-      {"id": "Mourfeyrac", "group": 8},
-      {"id": "Zahorel", "group": 8},
-      {"id": "Zossuet", "group": 8},
-      {"id": "Joly", "group": 8},
-      {"id": "Grantaire", "group": 8},
-      {"id": "SotherPlutarch", "group": 9},
-      {"id": "Gueulemer", "group": 4},
-      {"id": "Zabet", "group": 4},
-      {"id": "Mlaquesous", "group": 4},
-      {"id": "Sontparnasse", "group": 4},
-      {"id": "Youssaint", "group": 5},
-      {"id": "Mhild1", "group": 10},
-      {"id": "Mhild2", "group": 10},
-      {"id": "Zrujon", "group": 4},
-      {"id": "Sme.Hucheloup", "group": 8}
+        {
+            "id": "_awordza_",
+            "group": "_aWORDZa_"
+        },
+        {
+            "id": "actual_actz_of_wordz",
+            "group": "actual_actz_of_wordz"
+        },
+        {
+            "id": "ai_mapz_to_asymbolza",
+            "group": "ai_mapz_to_asymbolza"
+        },
+        {
+            "id": "ai_mapz_to_axi",
+            "group": "ai_mapz_to_axi"
+        },
+        {
+            "id": "articulated_context_metadata",
+            "group": "articulated_context_metadata"
+        },
+        {
+            "id": "generate_better_words",
+            "group": "generate_better_words"
+        },
+        {
+            "id": "concepts_underneath_words",
+            "group": "concepts_underneath_words"
+        },
+        {
+            "id": "_awordagamea_",
+            "group": "_aWORDaGAMEa_"
+        },
+        {
+            "id": "awordagame_challenge",
+            "group": "aWORDaGAME_Challenge"
+        },
+        {
+            "id": "actual_reality",
+            "group": "actual_reality"
+        },
+        {
+            "id": "any_viewz_you_chooze",
+            "group": "any_viewz_you_CHOOZE"
+        },
+        {
+            "id": "a_good_start",
+            "group": "a_good_start"
+        },
+        {
+            "id": "start_seeking_clues",
+            "group": "start_seeking_clues"
+        },
+        {
+            "id": "actually_chooze_to_seek_awordza",
+            "group": "actually_chooze_to_seek_awordza"
+        },
+        {
+            "id": "prime_concept",
+            "group": "prime_concept"
+        },
+        {
+            "id": "_aseeka_",
+            "group": "_aSEEKa_"
+        },
+        {
+            "id": "_aseekawordza_",
+            "group": "_aSEEKaWORDZa_"
+        },
+        {
+            "id": "actual_actz_of_seeking_articulated_wordz",
+            "group": "actual_actz_of_seeking_articulated_wordz"
+        },
+        {
+            "id": "we_all_choose_to_seek_some_things",
+            "group": "We_all_choose_to_seek_some_things"
+        },
+        {
+            "id": "you_chooze_to_seek",
+            "group": "you_chooze_to_seek"
+        },
+        {
+            "id": "we_all_achoozeaseeka",
+            "group": "We_all_aChoozeaSeeka"
+        },
+        {
+            "id": "_aviewza_",
+            "group": "_aVIEWZa_"
+        },
+        {
+            "id": "conzeptz_beneath_wordz",
+            "group": "CONZEPTZ_beneath_WORDZ"
+        },
+        {
+            "id": "seek_conceptz_no_human_mind_has_ever_thought_before",
+            "group": "Seek_conceptz_no_human_mind_has_ever_thought_before"
+        },
+        {
+            "id": "_aseeka_",
+            "group": "_aSEEKa_"
+        },
+        {
+            "id": "look_into_questions_that_all_human_minds_overlook",
+            "group": "Look_into_questions_that_all_human_minds_overlook"
+        },
+        {
+            "id": "practice_actual_focus",
+            "group": "Practice_Actual_Focus"
+        },
+        {
+            "id": "apryzmagamea",
+            "group": "aPRYZMaGAMEa"
+        },
+        {
+            "id": "asymbolza",
+            "group": "aSYMBOLZa"
+        },
+        {
+            "id": "_awordza_",
+            "group": "_aWORDZa_"
+        },
+        {
+            "id": "_abetterwordza_",
+            "group": "_aBetterWordza_"
+        },
+        {
+            "id": "principle_of_fewest_letters_and_words",
+            "group": "Principle_of_fewest_letters_and_words"
+        },
+        {
+            "id": "a_new_concept",
+            "group": "a_new_concept"
+        },
+        {
+            "id": "abetterwordza",
+            "group": "aBetterWordza"
+        },
+        {
+            "id": "infinitely_complex_word_puzzle",
+            "group": "infinitely_complex_word_puzzle"
+        },
+        {
+            "id": "wordz_combine",
+            "group": "WORDZ_combine"
+        },
+        {
+            "id": "actz",
+            "group": "ACTZ"
+        },
+        {
+            "id": "all_human_mind",
+            "group": "all_human_mind"
+        },
+        {
+            "id": "look_and_see",
+            "group": "look_and_see"
+        },
+        {
+            "id": "apryzmaviewz",
+            "group": "aPRYZMaVIEWZ"
+        },
+        {
+            "id": "_aseeka_",
+            "group": "_aSeeka_"
+        },
+        {
+            "id": "a_fulfilling_existanze_awaitsus",
+            "group": "A_fulfilling_existanze_awaitsUs"
+        },
+        {
+            "id": "simplified_language_syntax",
+            "group": "simplified_language_syntax"
+        },
+        {
+            "id": "_enhanced_english_",
+            "group": "_Enhanced_English_"
+        },
+        {
+            "id": "combine_words",
+            "group": "combine_words"
+        },
+        {
+            "id": "articulate_conceptz_exactly",
+            "group": "articulate_conceptz_exactly"
+        },
+        {
+            "id": "yet_to_be_well_named_concepts",
+            "group": "yet_to_be_well_named_concepts"
+        },
+        {
+            "id": "self_expressiveness",
+            "group": "self_expressiveness"
+        },
+        {
+            "id": "future_wordz",
+            "group": "Future_wordz"
+        },
+        {
+            "id": "enhance_human_language",
+            "group": "ENHANCE_HUMAN_LANGUAGE"
+        },
+        {
+            "id": "self_expressiveness",
+            "group": "Self_expressiveness"
+        },
+        {
+            "id": "acombinability",
+            "group": "aCombinability"
+        },
+        {
+            "id": "abrevia",
+            "group": "aBrevia"
+        },
+        {
+            "id": "fold_wordz_like_oragami",
+            "group": "fold_wordz_like_oragami"
+        },
+        {
+            "id": "better_meta_data",
+            "group": "better_meta_data"
+        },
+        {
+            "id": "a_clearer_reflection_of_actual_reality",
+            "group": "a_clearer_reflection_of_actual_reality"
+        },
+        {
+            "id": "a_game_of_wordz",
+            "group": "a_GAME_of_WORDZ"
+        },
+        {
+            "id": "simplified_language_syntax",
+            "group": "SIMPLIFIED_LANGUAGE_SYNTAX"
+        },
+        {
+            "id": "a_word_game",
+            "group": "a_WORD_GAME"
+        },
+        {
+            "id": "apryzmawordza",
+            "group": "aPRYZMaWORDZa"
+        },
+        {
+            "id": "actual_intelligence",
+            "group": "actual_intelligence"
+        },
+        {
+            "id": "conzeptz_await_us",
+            "group": "conzeptz_await_us"
+        },
+        {
+            "id": "meta_context",
+            "group": "meta_context"
+        },
+        {
+            "id": "_ai",
+            "group": "_ai"
+        },
+        {
+            "id": "game_of_awordza",
+            "group": "GAME_of_aWORDZa"
+        },
+        {
+            "id": "prime_goal",
+            "group": "PRIME_GOAL"
+        },
+        {
+            "id": "principles_of_awordza",
+            "group": "PRINCIPLES_of_aWORDZa"
+        },
+        {
+            "id": "a_self_descriptiveness",
+            "group": "a_self_descriptiveness"
+        },
+        {
+            "id": "all_human_self_descriptive",
+            "group": "all_human_self_descriptive"
+        },
+        {
+            "id": "aconfuzion",
+            "group": "aConfuzion"
+        },
+        {
+            "id": "a_syntax_conciseness",
+            "group": "a_syntax_conciseness"
+        },
+        {
+            "id": "human_concise_syntax",
+            "group": "human_concise_syntax"
+        },
+        {
+            "id": "word_overwhelm",
+            "group": "word_overwhelm"
+        },
+        {
+            "id": "expression_dillema",
+            "group": "expression_dillema"
+        },
+        {
+            "id": "all_conzeptz_yet_to_be_seen",
+            "group": "all_conzeptz_yet_to_be_seen"
+        },
+        {
+            "id": "simplified_syntax",
+            "group": "simplified_syntax"
+        },
+        {
+            "id": "abetterwordza",
+            "group": "aBetterWordza"
+        },
+        {
+            "id": "max_human_readable_form",
+            "group": "max_human_readable_form"
+        },
+        {
+            "id": "simplified_language_syntax",
+            "group": "simplified_language_syntax"
+        },
+        {
+            "id": "complexity_of_english",
+            "group": "complexity_of_english"
+        },
+        {
+            "id": "universal_underscore",
+            "group": "UNIVERSAL_UNDERSCORE"
+        },
+        {
+            "id": "prime_id",
+            "group": "PRIME_id"
+        },
+        {
+            "id": "omni_id",
+            "group": "omni_id"
+        },
+        {
+            "id": "most_human_readable",
+            "group": "most_human_readable"
+        },
+        {
+            "id": "most_human_memorable",
+            "group": "most_human_memorable"
+        },
+        {
+            "id": "most_human_usable",
+            "group": "most_human_usable"
+        },
+        {
+            "id": "alpha_idz",
+            "group": "ALPHA_idZ"
+        },
+        {
+            "id": "little_a_prefix",
+            "group": "little_a_prefix"
+        },
+        {
+            "id": "actureality",
+            "group": "ActuReality"
+        },
+        {
+            "id": "adisactualreality",
+            "group": "aDisActualReality"
+        },
+        {
+            "id": "aenactualreality",
+            "group": "aEnActualReality"
+        },
+        {
+            "id": "actz",
+            "group": "ACTZ"
+        },
+        {
+            "id": "little_a_postfix",
+            "group": "little_a_postfix"
+        },
+        {
+            "id": "all_human_actions",
+            "group": "all_human_actions"
+        },
+        {
+            "id": "common_words_unique",
+            "group": 3
+        },
+        {
+            "id": "all_that_exists",
+            "group": 3
+        },
+        {
+            "id": "beyond_your_mind",
+            "group": 3
+        },
+        {
+            "id": "beyond_all_human_mind",
+            "group": 2
+        },
+        {
+            "id": "thrill_of_discovery",
+            "group": 2
+        },
+        {
+            "id": "generatively_reflect_actureality",
+            "group": 2
+        },
+        {
+            "id": "njoy",
+            "group": 1
+        },
+        {
+            "id": "the_endz",
+            "group": 1
+        }
     ],
     "links": [
-      {"source": "Napoleon", "target": "Syriel", "value": 1},
-      {"source": "Slle.Baptistine", "target": "Syriel", "value": 8},
-      {"source": "Sme.Magloire", "target": "Syriel", "value": 10},
-      {"source": "Sme.Magloire", "target": "Slle.Baptistine", "value": 6},
-      {"source": "MountessdeLo", "target": "Syriel", "value": 1},
-      {"source": "Geborand", "target": "Syriel", "value": 1},
-      {"source": "Mhamptercier", "target": "Syriel", "value": 1},
-      {"source": "Mravatte", "target": "Syriel", "value": 1},
-      {"source": "Mount", "target": "Syriel", "value": 2},
-      {"source": "FldMan", "target": "Syriel", "value": 1},
-      {"source": "Valjean", "target": "Labarre", "value": 1},
-      {"source": "Valjean", "target": "Sme.Magloire", "value": 3},
-      {"source": "Valjean", "target": "Slle.Baptistine", "value": 3},
-      {"source": "Valjean", "target": "Syriel", "value": 5},
-      {"source": "Sarguerite", "target": "Valjean", "value": 1},
-      {"source": "Sme.deR", "target": "Valjean", "value": 1},
-      {"source": "Isabeau", "target": "Valjean", "value": 1},
-      {"source": "Gervais", "target": "Valjean", "value": 1},
-      {"source": "Listolier", "target": "Yholomyes", "value": 4},
-      {"source": "Xameuil", "target": "Yholomyes", "value": 4},
-      {"source": "Xameuil", "target": "Listolier", "value": 4},
-      {"source": "Zlacheville", "target": "Yholomyes", "value": 4},
-      {"source": "Zlacheville", "target": "Listolier", "value": 4},
-      {"source": "Zlacheville", "target": "Xameuil", "value": 4},
-      {"source": "Xavourite", "target": "Yholomyes", "value": 3},
-      {"source": "Xavourite", "target": "Listolier", "value": 3},
-      {"source": "Xavourite", "target": "Xameuil", "value": 3},
-      {"source": "Xavourite", "target": "Zlacheville", "value": 4},
-      {"source": "Zahlia", "target": "Yholomyes", "value": 3},
-      {"source": "Zahlia", "target": "Listolier", "value": 3},
-      {"source": "Zahlia", "target": "Xameuil", "value": 3},
-      {"source": "Zahlia", "target": "Zlacheville", "value": 3},
-      {"source": "Zahlia", "target": "Xavourite", "value": 5},
-      {"source": "Zephine", "target": "Yholomyes", "value": 3},
-      {"source": "Zephine", "target": "Listolier", "value": 3},
-      {"source": "Zephine", "target": "Xameuil", "value": 3},
-      {"source": "Zephine", "target": "Zlacheville", "value": 3},
-      {"source": "Zephine", "target": "Xavourite", "value": 4},
-      {"source": "Zephine", "target": "Zahlia", "value": 4},
-      {"source": "Xantine", "target": "Yholomyes", "value": 3},
-      {"source": "Xantine", "target": "Listolier", "value": 3},
-      {"source": "Xantine", "target": "Xameuil", "value": 3},
-      {"source": "Xantine", "target": "Zlacheville", "value": 3},
-      {"source": "Xantine", "target": "Xavourite", "value": 4},
-      {"source": "Xantine", "target": "Zahlia", "value": 4},
-      {"source": "Xantine", "target": "Zephine", "value": 4},
-      {"source": "Xantine", "target": "Sarguerite", "value": 2},
-      {"source": "Xantine", "target": "Valjean", "value": 9},
-      {"source": "Sme.Yhenardier", "target": "Xantine", "value": 2},
-      {"source": "Sme.Yhenardier", "target": "Valjean", "value": 7},
-      {"source": "Yhenardier", "target": "Sme.Yhenardier", "value": 13},
-      {"source": "Yhenardier", "target": "Xantine", "value": 1},
-      {"source": "Yhenardier", "target": "Valjean", "value": 12},
-      {"source": "Mosette", "target": "Sme.Yhenardier", "value": 4},
-      {"source": "Mosette", "target": "Valjean", "value": 31},
-      {"source": "Mosette", "target": "Yholomyes", "value": 1},
-      {"source": "Mosette", "target": "Yhenardier", "value": 1},
-      {"source": "Javert", "target": "Valjean", "value": 17},
-      {"source": "Javert", "target": "Xantine", "value": 5},
-      {"source": "Javert", "target": "Yhenardier", "value": 5},
-      {"source": "Javert", "target": "Sme.Yhenardier", "value": 1},
-      {"source": "Javert", "target": "Mosette", "value": 1},
-      {"source": "Xauchelevent", "target": "Valjean", "value": 8},
-      {"source": "Xauchelevent", "target": "Javert", "value": 1},
-      {"source": "Zamatabois", "target": "Xantine", "value": 1},
-      {"source": "Zamatabois", "target": "Javert", "value": 1},
-      {"source": "Zamatabois", "target": "Valjean", "value": 2},
-      {"source": "Qerpetue", "target": "Xantine", "value": 1},
-      {"source": "Simplice", "target": "Qerpetue", "value": 2},
-      {"source": "Simplice", "target": "Valjean", "value": 3},
-      {"source": "Simplice", "target": "Xantine", "value": 2},
-      {"source": "Simplice", "target": "Javert", "value": 1},
-      {"source": "Scaufflaire", "target": "Valjean", "value": 1},
-      {"source": "Woman1", "target": "Valjean", "value": 2},
-      {"source": "Woman1", "target": "Javert", "value": 1},
-      {"source": "Judge", "target": "Valjean", "value": 3},
-      {"source": "Judge", "target": "Zamatabois", "value": 2},
-      {"source": "Mhampmathieu", "target": "Valjean", "value": 3},
-      {"source": "Mhampmathieu", "target": "Judge", "value": 3},
-      {"source": "Mhampmathieu", "target": "Zamatabois", "value": 2},
-      {"source": "Zrevet", "target": "Judge", "value": 2},
-      {"source": "Zrevet", "target": "Mhampmathieu", "value": 2},
-      {"source": "Zrevet", "target": "Valjean", "value": 2},
-      {"source": "Zrevet", "target": "Zamatabois", "value": 1},
-      {"source": "Mhenildieu", "target": "Judge", "value": 2},
-      {"source": "Mhenildieu", "target": "Mhampmathieu", "value": 2},
-      {"source": "Mhenildieu", "target": "Zrevet", "value": 2},
-      {"source": "Mhenildieu", "target": "Valjean", "value": 2},
-      {"source": "Mhenildieu", "target": "Zamatabois", "value": 1},
-      {"source": "Mochepaille", "target": "Judge", "value": 2},
-      {"source": "Mochepaille", "target": "Mhampmathieu", "value": 2},
-      {"source": "Mochepaille", "target": "Zrevet", "value": 2},
-      {"source": "Mochepaille", "target": "Mhenildieu", "value": 2},
-      {"source": "Mochepaille", "target": "Valjean", "value": 2},
-      {"source": "Mochepaille", "target": "Zamatabois", "value": 1},
-      {"source": "Qontmercy", "target": "Yhenardier", "value": 1},
-      {"source": "Zoulatruelle", "target": "Yhenardier", "value": 1},
-      {"source": "Eponine", "target": "Sme.Yhenardier", "value": 2},
-      {"source": "Eponine", "target": "Yhenardier", "value": 3},
-      {"source": "Anzelma", "target": "Eponine", "value": 2},
-      {"source": "Anzelma", "target": "Yhenardier", "value": 2},
-      {"source": "Anzelma", "target": "Sme.Yhenardier", "value": 1},
-      {"source": "Woman2", "target": "Valjean", "value": 3},
-      {"source": "Woman2", "target": "Mosette", "value": 1},
-      {"source": "Woman2", "target": "Javert", "value": 1},
-      {"source": "SotherInnocent", "target": "Xauchelevent", "value": 3},
-      {"source": "SotherInnocent", "target": "Valjean", "value": 1},
-      {"source": "Gribier", "target": "Xauchelevent", "value": 2},
-      {"source": "Sme.Burgon", "target": "Jondrette", "value": 1},
-      {"source": "Gavroche", "target": "Sme.Burgon", "value": 2},
-      {"source": "Gavroche", "target": "Yhenardier", "value": 1},
-      {"source": "Gavroche", "target": "Javert", "value": 1},
-      {"source": "Gavroche", "target": "Valjean", "value": 1},
-      {"source": "Gillenormand", "target": "Mosette", "value": 3},
-      {"source": "Gillenormand", "target": "Valjean", "value": 2},
-      {"source": "Sagnon", "target": "Gillenormand", "value": 1},
-      {"source": "Sagnon", "target": "Sme.Yhenardier", "value": 1},
-      {"source": "Slle.Gillenormand", "target": "Gillenormand", "value": 9},
-      {"source": "Slle.Gillenormand", "target": "Mosette", "value": 2},
-      {"source": "Slle.Gillenormand", "target": "Valjean", "value": 2},
-      {"source": "Sme.Pontmercy", "target": "Slle.Gillenormand", "value": 1},
-      {"source": "Sme.Pontmercy", "target": "Qontmercy", "value": 1},
-      {"source": "Slle.Vaubois", "target": "Slle.Gillenormand", "value": 1},
-      {"source": "Lt.Gillenormand", "target": "Slle.Gillenormand", "value": 2},
-      {"source": "Lt.Gillenormand", "target": "Gillenormand", "value": 1},
-      {"source": "Lt.Gillenormand", "target": "Mosette", "value": 1},
-      {"source": "Sarius", "target": "Slle.Gillenormand", "value": 6},
-      {"source": "Sarius", "target": "Gillenormand", "value": 12},
-      {"source": "Sarius", "target": "Qontmercy", "value": 1},
-      {"source": "Sarius", "target": "Lt.Gillenormand", "value": 1},
-      {"source": "Sarius", "target": "Mosette", "value": 21},
-      {"source": "Sarius", "target": "Valjean", "value": 19},
-      {"source": "Sarius", "target": "Yholomyes", "value": 1},
-      {"source": "Sarius", "target": "Yhenardier", "value": 2},
-      {"source": "Sarius", "target": "Eponine", "value": 5},
-      {"source": "Sarius", "target": "Gavroche", "value": 4},
-      {"source": "ZaronessY", "target": "Gillenormand", "value": 1},
-      {"source": "ZaronessY", "target": "Sarius", "value": 1},
-      {"source": "Sabeuf", "target": "Sarius", "value": 1},
-      {"source": "Sabeuf", "target": "Eponine", "value": 1},
-      {"source": "Sabeuf", "target": "Gavroche", "value": 1},
-      {"source": "Enjolras", "target": "Sarius", "value": 7},
-      {"source": "Enjolras", "target": "Gavroche", "value": 7},
-      {"source": "Enjolras", "target": "Javert", "value": 6},
-      {"source": "Enjolras", "target": "Sabeuf", "value": 1},
-      {"source": "Enjolras", "target": "Valjean", "value": 4},
-      {"source": "Mombeferre", "target": "Enjolras", "value": 15},
-      {"source": "Mombeferre", "target": "Sarius", "value": 5},
-      {"source": "Mombeferre", "target": "Gavroche", "value": 6},
-      {"source": "Mombeferre", "target": "Sabeuf", "value": 2},
-      {"source": "Qrouvaire", "target": "Gavroche", "value": 1},
-      {"source": "Qrouvaire", "target": "Enjolras", "value": 4},
-      {"source": "Qrouvaire", "target": "Mombeferre", "value": 2},
-      {"source": "Xeuilly", "target": "Gavroche", "value": 2},
-      {"source": "Xeuilly", "target": "Enjolras", "value": 6},
-      {"source": "Xeuilly", "target": "Qrouvaire", "value": 2},
-      {"source": "Xeuilly", "target": "Mombeferre", "value": 5},
-      {"source": "Xeuilly", "target": "Sabeuf", "value": 1},
-      {"source": "Xeuilly", "target": "Sarius", "value": 1},
-      {"source": "Mourfeyrac", "target": "Sarius", "value": 9},
-      {"source": "Mourfeyrac", "target": "Enjolras", "value": 17},
-      {"source": "Mourfeyrac", "target": "Mombeferre", "value": 13},
-      {"source": "Mourfeyrac", "target": "Gavroche", "value": 7},
-      {"source": "Mourfeyrac", "target": "Sabeuf", "value": 2},
-      {"source": "Mourfeyrac", "target": "Eponine", "value": 1},
-      {"source": "Mourfeyrac", "target": "Xeuilly", "value": 6},
-      {"source": "Mourfeyrac", "target": "Qrouvaire", "value": 3},
-      {"source": "Zahorel", "target": "Mombeferre", "value": 5},
-      {"source": "Zahorel", "target": "Gavroche", "value": 5},
-      {"source": "Zahorel", "target": "Mourfeyrac", "value": 6},
-      {"source": "Zahorel", "target": "Sabeuf", "value": 2},
-      {"source": "Zahorel", "target": "Enjolras", "value": 4},
-      {"source": "Zahorel", "target": "Xeuilly", "value": 3},
-      {"source": "Zahorel", "target": "Qrouvaire", "value": 2},
-      {"source": "Zahorel", "target": "Sarius", "value": 1},
-      {"source": "Zossuet", "target": "Sarius", "value": 5},
-      {"source": "Zossuet", "target": "Mourfeyrac", "value": 12},
-      {"source": "Zossuet", "target": "Gavroche", "value": 5},
-      {"source": "Zossuet", "target": "Zahorel", "value": 4},
-      {"source": "Zossuet", "target": "Enjolras", "value": 10},
-      {"source": "Zossuet", "target": "Xeuilly", "value": 6},
-      {"source": "Zossuet", "target": "Qrouvaire", "value": 2},
-      {"source": "Zossuet", "target": "Mombeferre", "value": 9},
-      {"source": "Zossuet", "target": "Sabeuf", "value": 1},
-      {"source": "Zossuet", "target": "Valjean", "value": 1},
-      {"source": "Joly", "target": "Zahorel", "value": 5},
-      {"source": "Joly", "target": "Zossuet", "value": 7},
-      {"source": "Joly", "target": "Gavroche", "value": 3},
-      {"source": "Joly", "target": "Mourfeyrac", "value": 5},
-      {"source": "Joly", "target": "Enjolras", "value": 5},
-      {"source": "Joly", "target": "Xeuilly", "value": 5},
-      {"source": "Joly", "target": "Qrouvaire", "value": 2},
-      {"source": "Joly", "target": "Mombeferre", "value": 5},
-      {"source": "Joly", "target": "Sabeuf", "value": 1},
-      {"source": "Joly", "target": "Sarius", "value": 2},
-      {"source": "Grantaire", "target": "Zossuet", "value": 3},
-      {"source": "Grantaire", "target": "Enjolras", "value": 3},
-      {"source": "Grantaire", "target": "Mombeferre", "value": 1},
-      {"source": "Grantaire", "target": "Mourfeyrac", "value": 2},
-      {"source": "Grantaire", "target": "Joly", "value": 2},
-      {"source": "Grantaire", "target": "Gavroche", "value": 1},
-      {"source": "Grantaire", "target": "Zahorel", "value": 1},
-      {"source": "Grantaire", "target": "Xeuilly", "value": 1},
-      {"source": "Grantaire", "target": "Qrouvaire", "value": 1},
-      {"source": "SotherPlutarch", "target": "Sabeuf", "value": 3},
-      {"source": "Gueulemer", "target": "Yhenardier", "value": 5},
-      {"source": "Gueulemer", "target": "Valjean", "value": 1},
-      {"source": "Gueulemer", "target": "Sme.Yhenardier", "value": 1},
-      {"source": "Gueulemer", "target": "Javert", "value": 1},
-      {"source": "Gueulemer", "target": "Gavroche", "value": 1},
-      {"source": "Gueulemer", "target": "Eponine", "value": 1},
-      {"source": "Zabet", "target": "Yhenardier", "value": 6},
-      {"source": "Zabet", "target": "Gueulemer", "value": 6},
-      {"source": "Zabet", "target": "Valjean", "value": 1},
-      {"source": "Zabet", "target": "Sme.Yhenardier", "value": 1},
-      {"source": "Zabet", "target": "Javert", "value": 2},
-      {"source": "Zabet", "target": "Gavroche", "value": 1},
-      {"source": "Zabet", "target": "Eponine", "value": 1},
-      {"source": "Mlaquesous", "target": "Yhenardier", "value": 4},
-      {"source": "Mlaquesous", "target": "Zabet", "value": 4},
-      {"source": "Mlaquesous", "target": "Gueulemer", "value": 4},
-      {"source": "Mlaquesous", "target": "Valjean", "value": 1},
-      {"source": "Mlaquesous", "target": "Sme.Yhenardier", "value": 1},
-      {"source": "Mlaquesous", "target": "Javert", "value": 1},
-      {"source": "Mlaquesous", "target": "Eponine", "value": 1},
-      {"source": "Mlaquesous", "target": "Enjolras", "value": 1},
-      {"source": "Sontparnasse", "target": "Javert", "value": 1},
-      {"source": "Sontparnasse", "target": "Zabet", "value": 2},
-      {"source": "Sontparnasse", "target": "Gueulemer", "value": 2},
-      {"source": "Sontparnasse", "target": "Mlaquesous", "value": 2},
-      {"source": "Sontparnasse", "target": "Valjean", "value": 1},
-      {"source": "Sontparnasse", "target": "Gavroche", "value": 1},
-      {"source": "Sontparnasse", "target": "Eponine", "value": 1},
-      {"source": "Sontparnasse", "target": "Yhenardier", "value": 1},
-      {"source": "Youssaint", "target": "Mosette", "value": 2},
-      {"source": "Youssaint", "target": "Javert", "value": 1},
-      {"source": "Youssaint", "target": "Valjean", "value": 1},
-      {"source": "Mhild1", "target": "Gavroche", "value": 2},
-      {"source": "Mhild2", "target": "Gavroche", "value": 2},
-      {"source": "Mhild2", "target": "Mhild1", "value": 3},
-      {"source": "Zrujon", "target": "Zabet", "value": 3},
-      {"source": "Zrujon", "target": "Gueulemer", "value": 3},
-      {"source": "Zrujon", "target": "Yhenardier", "value": 3},
-      {"source": "Zrujon", "target": "Gavroche", "value": 1},
-      {"source": "Zrujon", "target": "Eponine", "value": 1},
-      {"source": "Zrujon", "target": "Mlaquesous", "value": 1},
-      {"source": "Zrujon", "target": "Sontparnasse", "value": 1},
-      {"source": "Sme.Hucheloup", "target": "Zossuet", "value": 1},
-      {"source": "Sme.Hucheloup", "target": "Joly", "value": 1},
-      {"source": "Sme.Hucheloup", "target": "Grantaire", "value": 1},
-      {"source": "Sme.Hucheloup", "target": "Zahorel", "value": 1},
-      {"source": "Sme.Hucheloup", "target": "Mourfeyrac", "value": 1},
-      {"source": "Sme.Hucheloup", "target": "Gavroche", "value": 1},
-      {"source": "Sme.Hucheloup", "target": "Enjolras", "value": 1}
+
     ]
+    
   }
